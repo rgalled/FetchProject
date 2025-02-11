@@ -1,0 +1,208 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+
+class MovieSeeder extends Seeder
+{
+    public function run()
+    {
+        // Insertando 23 libros con el campo rating
+        DB::table('movies')->insert([
+            [
+                'title' => 'El Señor de los Anillos: La Comunidad del Anillo',
+                'director' => 'Peter Jackson',
+                'description' => 'Un hobbit se embarca en una misión para destruir un anillo maligno antes de que caiga en las manos equivocadas.',
+                'rating' => 4.8,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'title' => 'El Padrino',
+                'director' => 'Francis Ford Coppola',
+                'description' => 'La historia de la familia Corleone y su lucha por el poder en el mundo de la mafia.',
+                'rating' => 4.9,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'title' => 'El Caballero de la Noche',
+                'director' => 'Christopher Nolan',
+                'description' => 'Batman enfrenta al Joker, un criminal caótico que amenaza con sumir a Gotham en el caos.',
+                'rating' => 4.7,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'title' => 'Forrest Gump',
+                'director' => 'Robert Zemeckis',
+                'description' => 'La vida de un hombre con una visión única del mundo, que influye en grandes eventos históricos.',
+                'rating' => 4.6,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'title' => 'Matrix',
+                'director' => 'Lana Wachowski, Lilly Wachowski',
+                'description' => 'Un hacker descubre la verdadera naturaleza de su realidad y se une a la resistencia contra las máquinas.',
+                'rating' => 4.5,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'title' => 'Gladiador',
+                'director' => 'Ridley Scott',
+                'description' => 'Un general romano traicionado busca venganza en la arena como gladiador.',
+                'rating' => 4.6,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'title' => 'Titanic',
+                'director' => 'James Cameron',
+                'description' => 'Un romance trágico a bordo del famoso barco que se hundió en su viaje inaugural.',
+                'rating' => 4.7,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'title' => 'Inception',
+                'director' => 'Christopher Nolan',
+                'description' => 'Un grupo de ladrones de sueños intenta implantar una idea en la mente de un empresario.',
+                'rating' => 4.8,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'title' => 'El Club de la Pelea',
+                'director' => 'David Fincher',
+                'description' => 'Un oficinista insomne encuentra un escape en un club de peleas clandestino.',
+                'rating' => 4.7,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'title' => 'Interestelar',
+                'director' => 'Christopher Nolan',
+                'description' => 'Un grupo de astronautas viaja a través de un agujero de gusano en busca de un nuevo hogar para la humanidad.',
+                'rating' => 4.8,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'title' => 'Pulp Fiction',
+                'director' => 'Quentin Tarantino',
+                'description' => 'Varias historias criminales entrelazadas con diálogos icónicos y humor negro.',
+                'rating' => 4.8,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'title' => 'Los Siete Samuráis',
+                'director' => 'Akira Kurosawa',
+                'description' => 'Un grupo de samuráis protege a un pueblo de bandidos en el Japón feudal.',
+                'rating' => 4.9,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'title' => 'El Resplandor',
+                'director' => 'Stanley Kubrick',
+                'description' => 'Un escritor y su familia se mudan a un hotel aislado donde comienzan a experimentar fenómenos aterradores.',
+                'rating' => 4.6,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'title' => 'Toy Story',
+                'director' => 'John Lasseter',
+                'description' => 'Un grupo de juguetes cobra vida cuando los humanos no están presentes.',
+                'rating' => 4.5,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'title' => 'El Viaje de Chihiro',
+                'director' => 'Hayao Miyazaki',
+                'description' => 'Una niña queda atrapada en un mundo mágico y debe encontrar la manera de salvar a sus padres.',
+                'rating' => 4.8,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'title' => 'La La Land',
+                'director' => 'Damien Chazelle',
+                'description' => 'Un pianista de jazz y una aspirante a actriz se enamoran en Los Ángeles mientras persiguen sus sueños.',
+                'rating' => 4.4,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'title' => 'Parásitos',
+                'director' => 'Bong Joon-ho',
+                'description' => 'Una familia pobre se infiltra en la casa de una familia rica con consecuencias inesperadas.',
+                'rating' => 4.9,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'title' => 'El Laberinto del Fauno',
+                'director' => 'Guillermo del Toro',
+                'description' => 'Una niña en la posguerra española descubre un mundo de fantasía lleno de criaturas mágicas.',
+                'rating' => 4.7,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'title' => 'Blade Runner 2049',
+                'director' => 'Denis Villeneuve',
+                'description' => 'Un agente descubre un secreto que podría cambiar la relación entre humanos y replicantes.',
+                'rating' => 4.5,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'title' => 'Whiplash',
+                'director' => 'Damien Chazelle',
+                'description' => 'Un joven baterista es llevado al límite por un estricto instructor de música.',
+                'rating' => 4.7,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'title' => 'La Lista de Schindler',
+                'director' => 'Steven Spielberg',
+                'description' => 'La historia real de un empresario que salvó a cientos de judíos durante el Holocausto.',
+                'rating' => 4.9,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'title' => 'Ciudad de Dios',
+                'director' => 'Fernando Meirelles, Kátia Lund',
+                'description' => 'La vida en una favela de Río de Janeiro y la lucha de un joven por escapar de la violencia.',
+                'rating' => 4.8,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'title' => 'El Código Da Vinci',
+                'director' => 'Ron Howard',
+                'description' => 'Un profesor de simbología y una criptógrafa investigan un misterio en torno al Santo Grial.',
+                'rating' => 4.2,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'title' => 'Los Increíbles',
+                'director' => 'Brad Bird',
+                'description' => 'Una familia de superhéroes intenta llevar una vida normal mientras enfrenta nuevas amenazas.',
+                'rating' => 4.5,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],            
+        ]);
+    }
+}
